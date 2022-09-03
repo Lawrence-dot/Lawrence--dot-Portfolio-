@@ -63,7 +63,7 @@ function Navbar() {
 
         <div className="img-Side flex justify-center mb-5 ">
           <img
-            className={` ${isNav ? "topImg" : "topSide"} rounded-circle`}
+            className={`dark:grayscale ${isNav ? "topImg" : "topSide"} rounded-circle`}
             src={Pic}
             alt="L-dot"
           />

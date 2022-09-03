@@ -5,3 +5,11 @@ export type navType = {
   setTheme: (prevState: string) => void;
   toggleTheme: () => void;
 };
+
+export interface ProjType {
+  title: string,
+  stack: string[],
+  description: string,
+  link: string,
+  src: string
+}

@@ -30,6 +30,9 @@ import {
 } from "react-icons/fa";
 import { MdLocationPin } from "react-icons/md";
 import "./Home.css";
+import Project from "../Projects";
+import { Projects } from "./Arrays";
+import { ProjType } from "../../Interfaces/types";
 const Zoom = require("react-reveal/Zoom");
 const Fade = require("react-reveal/Fade");
 
@@ -44,6 +47,22 @@ function Home() {
     isNav ? icon?.classList.remove("open") : icon?.classList.add("open");
   };
 
+  const projCard =  Projects.map((card, index)=>{
+    return(
+      <Project
+      title={card.title}
+      description={card.description}
+      stack={card.stack}
+      link={card.link}
+      src={card.src}
+      key={index}
+      />
+        )
+    });
+
+    console.log(projCard);
+    
+  
   
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -284,269 +303,7 @@ function Home() {
 
               <div className="projs text-black flex justify-center flex-wrap">
                 <Fade up>
-                  <div className="card dark:bg-gray-900 dark:text-white rounded-md w-full sm:w-1/2 shadow-md bg-white toDo border-blue-100">
-                    <div className="cardImg">
-                      <img src={require('../../Assets/imgs.png')} height={"40px"} alt="" />
-                    </div>
-                    <div className="cardContents p-3">
-                      <div className="cardTitle">
-                        <h1 className="text-3xl font-bold text-center">
-                          Image Gallery App{" "}
-                        </h1>
-                      </div>
-                      <div className="flex my-2 lang dark:text-red-400 text-red-800 justify-center">
-                        <span className="mr-2"> Vanila JS</span>
-                        <span className="mx-2"> React Js</span>
-                        <span className="mx-2"> Bootstrap Css</span>
-                      </div>
-                      <div className="cardInfo">
-                        <p className="text-center">
-                          An Interactive Image Gallery Web Application built
-                          with Html, Css, Vanila Js, React Js, Bootrap Css.
-                        </p>
-                      </div>
-                      <div className="cardBtn flex justify-center">
-                        <a
-                          href="https://lawrence-dot.github.io/Image-Gallery-/"
-                          className="border pointer transition my-2 mx-auto rounded p-2 border-dark dark:border-white hover:dark:bg-dark hover:bg-light hover:text-white"
-                        >
-                          {" "}
-                          Live Demo{" "}
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card dark:bg-gray-900 dark:text-white rounded-md w-full sm:w-1/2 shadow-md bg-white toDo border-blue-100">
-                    <div className="cardImg">
-                      <img src={require('../../Assets/notepad.png')} height={"40px"} alt="" />
-                    </div>
-                    <div className="cardContents p-3">
-                      <div className="cardTitle">
-                        <h1 className="text-3xl font-bold text-center">
-                          Notepad App{" "}
-                        </h1>
-                      </div>
-                      <div className="flex my-2 dark:text-red-400 lang text-red-800 justify-center">
-                        <span className="mr-2"> Vanila Js </span>
-                        <span className="mx-2"> React Js</span>
-                        <span className="mx-2"> Bootstrap Css</span>
-                      </div>
-                      <div className="cardInfo">
-                        <p className="text-center">
-                          A Frontend Mentor Todo List Challenge built with Html,
-                          Css, Vanila Js, React Js, Bootstrap Css.
-                        </p>
-                      </div>
-                      <div className="cardBtn flex justify-denter">
-                        <a
-                          href="https://notepad-elo.netlify.app"
-                          className="border pointer transition my-2 mx-auto rounded p-2 border-dark dark:border-white hover:dark:bg-dark hover:bg-light hover:text-white"
-                        >
-                          {" "}
-                          Live Demo{" "}
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card dark:bg-gray-900 dark:text-white rounded-md w-full sm:w-1/2 shadow-md bg-white toDo border-blue-100">
-                    <div className="cardImg">
-                      <img src={require("../../Assets/todo.png")} height={"40px"} alt="" />
-                    </div>
-                    <div className="cardContents p-3">
-                      <div className="cardTitle">
-                        <h1 className="text-3xl font-bold text-center">
-                          To do List{" "}
-                        </h1>
-                      </div>
-                      <div className="flex my-2 dark:text-red-400 lang text-red-800 justify-center">
-                        <span className="mr-2"> Typescript </span>
-                        <span className="mx-2"> React Js</span>
-                        <span className="mx-2"> Bootstrap Css</span>
-                      </div>
-                      <div className="cardInfo">
-                        <p className="text-center">
-                          An Interactive To do List Web Application built with
-                          Html, Css, Typescript, React Js, Bootrap Css.
-                        </p>
-                      </div>
-                      <div className="cardBtn flex justify-denter">
-                        <a
-                          href="https://todo-elo.netlify.app/"
-                          className="border pointer transition my-2 mx-auto rounded p-2 border-dark dark:border-white hover:dark:bg-dark hover:bg-light hover:text-white"
-                        >
-                          {" "}
-                          Live Demo{" "}
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card dark:bg-gray-900 dark:text-white rounded-md w-full sm:w-1/2 shadow-md bg-white toDo border-blue-100">
-                    <div className="cardImg">
-                      <img src={require("../../Assets/countdown.png")} height={"40px"} alt="" />
-                    </div>
-                    <div className="cardContents p-3">
-                      <div className="cardTitle">
-                        <h1 className="text-3xl font-bold text-center">
-                          Countdown Web App{" "}
-                        </h1>
-                      </div>
-                      <div className="flex my-2 lang dark:text-red-400 text-red-800 justify-center">
-                        <span className="mr-2"> Vanila Js </span>
-                        <span className="mx-2"> React Js</span>
-                        <span className="mx-2"> Tailwind Css</span>
-                      </div>
-                      <div className="cardInfo">
-                        <p className="text-center">
-                          I built a Countdown Web Application built with Html,
-                          Css, Vanila Js, React Js, Tailwind Css.
-                        </p>
-                      </div>
-                      <div className="cardBtn flex justify-denter">
-                        <a
-                          href="https://react-countdown-app.netlify.app/"
-                          className="border pointer transition my-2 mx-auto rounded p-2 border-dark dark:border-white hover:dark:bg-dark hover:bg-light hover:text-white"
-                        >
-                          {" "}
-                          Live Demo{" "}
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card dark:bg-gray-900 dark:text-white rounded-md w-full sm:w-1/2 shadow-md bg-white toDo border-blue-100">
-                    <div className="cardImg">
-                      <img src={require("../../Assets/law.png")} height={"40px"} alt="" />
-                    </div>
-                    <div className="cardContents p-3">
-                      <div className="cardTitle">
-                        <h1 className="text-3xl font-bold text-center">
-                          My Portfolio{" "}
-                        </h1>
-                      </div>
-                      <div className="flex my-2 lang dark:text-red-400 text-red-800 justify-center">
-                        <span className="mr-2"> Typescript </span>
-                        <span className="mx-2"> React Js</span>
-                        <span className="mx-2"> Tailwind Css</span>
-                      </div>
-                      <div className="cardInfo">
-                        <p className="text-center">
-                          I built my portfolio website built with Html, Css,
-                          Typescript, Vanila Js, Email Js, React Js, Tailwind
-                          Css.
-                        </p>
-                      </div>
-                      <div className="cardBtn flex justify-denter">
-                        <a
-                          href="https://localhost:3000"
-                          className="border pointer transition my-2 mx-auto rounded p-2 border-dark dark:border-white hover:dark:bg-dark hover:bg-light hover:text-white"
-                        >
-                          {" "}
-                          Live Demo{" "}
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card dark:bg-gray-900 dark:text-white rounded-md w-full sm:w-1/2 shadow-md bg-white toDo border-blue-100">
-                    <div className="cardImg">
-                      <img src={require("../../Assets/moon.png")} height={"40px"} alt="" />
-                    </div>
-                    <div className="cardContents p-3">
-                      <div className="cardTitle">
-                        <h1 className="text-3xl font-bold text-center">
-                          Moon Website{" "}
-                        </h1>
-                      </div>
-                      <div className="flex my-2 lang dark:text-red-400 text-red-800 justify-center">
-                        <span className="mr-2"> Vanila Js </span>
-                        <span className="mx-2"> jQuery</span>
-                        <span className="mx-2"> Css</span>
-                      </div>
-                      <div className="cardInfo">
-                        <p className="text-center">
-                          Website built with Html, Css, jQuery, Vanila Js.
-                        </p>
-                      </div>
-                      <div className="cardBtn flex justify-denter">
-                        <a
-                          href="https://lawrence-dot.github.io/Moon-Website-/"
-                          className="border pointer transition my-2 mx-auto rounded p-2 border-dark dark:border-white hover:dark:bg-dark hover:bg-light hover:text-white"
-                        >
-                          {" "}
-                          Live Demo{" "}
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card dark:bg-gray-900 dark:text-white rounded-md w-full sm:w-1/2 shadow-md bg-white toDo border-blue-100">
-                    <div className="cardImg">
-                      <img src={require("../../Assets/bw.png")} height={"40px"} alt="" />
-                    </div>
-                    <div className="cardContents p-3">
-                      <div className="cardTitle">
-                        <h1 className="text-3xl font-bold text-center">
-                          Bank Clone{" "}
-                        </h1>
-                      </div>
-                      <div className="flex my-2 lang dark:text-red-400 text-red-800 justify-center">
-                        <span className="mr-2"> Html </span>
-                        <span className="mx-2"> Css</span>
-                        <span className="mx-2"> Javascript</span>
-                      </div>
-                      <div className="cardInfo">
-                        <p className="text-center">
-                          Enterprise Website Bank built with Html5, css3 and
-                          Javascript.
-                        </p>
-                      </div>
-                      <div className="cardBtn flex justify-denter">
-                        <a
-                          href="https://lawrence-dot.github.io/BW/"
-                          className="border pointer transition my-2 mx-auto rounded p-2 border-dark dark:border-white hover:dark:bg-dark hover:bg-light hover:text-white"
-                        >
-                          {" "}
-                          Live Demo{" "}
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card dark:bg-gray-900 dark:text-white rounded-md w-full sm:w-1/2 shadow-md bg-white toDo border-blue-100">
-                    <div className="cardImg">
-                      <img src={require("../../Assets/elo.png")} height={"40px"} alt="" />
-                    </div>
-                    <div className="cardContents p-3">
-                      <div className="cardTitle">
-                        <h1 className="text-3xl font-bold text-center">
-                          Studio Website{" "}
-                        </h1>
-                      </div>
-                      <div className="flex my-2 lang dark:text-red-400 text-red-800 justify-center">
-                        <span className="mr-2"> Html </span>
-                        <span className="mx-2"> Css</span>
-                        <span className="mx-2"> Javascript</span>
-                      </div>
-                      <div className="cardInfo">
-                        <p className="text-center">
-                          Studio Website Bank built with Html5, css3 and
-                          Javascript.
-                        </p>
-                      </div>
-                      <div className="cardBtn flex justify-denter">
-                        <a
-                          href="https://lawrence-dot.github.io/ELO/"
-                          className="border pointer transition my-2 mx-auto rounded p-2 border-dark dark:border-white hover:dark:bg-dark hover:bg-light hover:text-white"
-                        >
-                          {" "}
-                          Live Demo{" "}
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+                  {projCard}
                 </Fade>
               </div>
             </div>
