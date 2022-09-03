@@ -38,6 +38,7 @@ function Navbar() {
           block: "start",
           inline: "nearest"
     });
+    allContext.setNav(false);
     }
   };
 
