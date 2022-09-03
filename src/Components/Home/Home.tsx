@@ -47,6 +47,9 @@ function Home() {
     isNav ? icon?.classList.remove("open") : icon?.classList.add("open");
   };
 
+  console.log(Projects);
+  
+
   const projCard =  Projects.map((card, index)=>{
     return(
       <Project

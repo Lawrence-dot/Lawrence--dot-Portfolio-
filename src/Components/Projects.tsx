@@ -5,7 +5,7 @@ import {ProjType} from '../Interfaces/types'
 
 function Project(props: ProjType) {
     return (
-        <div className="card dark:bg-gray-900 dark:text-white rounded-md w-full shadow-md bg-white toDo border-blue-100">
+        <div className="card mx-auto dark:bg-gray-900 dark:text-white rounded-md shadow-md bg-white toDo border-blue-100">
             <div className="cardImg">
                 <img src={props.src} height={"40px"} alt="" />
             </div>
@@ -27,7 +27,7 @@ function Project(props: ProjType) {
                 </div>
                 <div className="cardBtn flex justify-center content-end">
                     <a
-                        href="https://lawrence-dot.github.io/Image-Gallery-/"
+                        href={props.link}
                         className="border pointer my-2 mx-auto rounded p-2 border-dark dark:border-white hover:dark:bg-dark hover:bg-light hover:text-white"
                     >
                         {" "}
