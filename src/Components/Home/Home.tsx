@@ -127,7 +127,7 @@ function Home() {
                       </a>
                     </li>
                     <li className="contactLink github">
-                      <a href="https://ssgithub.com/Lawrence-dot">
+                      <a href="https://github.com/Lawrence-dot">
                         {" "}
                         <SiGithub />
                       </a>
