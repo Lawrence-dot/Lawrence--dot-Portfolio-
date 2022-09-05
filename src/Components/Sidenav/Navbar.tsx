@@ -14,7 +14,6 @@ import {
   faLinkedinIn,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
-import "animate.css";
 import { navContext } from "../../Container/App";
 import Pic from "../../Assets/pic.jpg";
 import {  FaTimes,FaMoon, FaSun } from "react-icons/fa";

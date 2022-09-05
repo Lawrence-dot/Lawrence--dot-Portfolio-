@@ -2,7 +2,6 @@ import { createContext, useEffect, useState } from "react";
 import Home from "../Components/Home/Home";
 import Navbar from "../Components/Sidenav/Navbar";
 import "./App.css";
-import "animate.css";
 import { navType } from "../Interfaces/types";
 import {FaMoon, FaSun} from 'react-icons/fa'
 export const navContext = createContext<navType | null>(null);

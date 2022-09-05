@@ -32,7 +32,6 @@ import { MdLocationPin } from "react-icons/md";
 import "./Home.css";
 import Project from "../Projects";
 import { Projects } from "./Arrays";
-import { ProjType } from "../../Interfaces/types";
 const Zoom = require("react-reveal/Zoom");
 const Fade = require("react-reveal/Fade");
 
@@ -47,10 +46,7 @@ function Home() {
     isNav ? icon?.classList.remove("open") : icon?.classList.add("open");
   };
 
-  console.log(Projects);
-  
-
-  const projCard =  Projects.map((card, index)=>{
+  const projCard: JSX.Element[] = Projects.map((card, index)=>{
     return(
       <Project
       title={card.title}
@@ -62,10 +58,6 @@ function Home() {
       />
         )
     });
-
-    console.log(projCard);
-    
-  
   
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
