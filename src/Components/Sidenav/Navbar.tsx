@@ -16,28 +16,27 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { navContext } from "../../Container/App";
 import Pic from "../../Assets/pic.jpg";
-import {  FaTimes,FaMoon, FaSun } from "react-icons/fa";
+import { FaTimes, FaMoon, FaSun } from "react-icons/fa";
 import { Tooltip } from "@mui/material";
 import { navType } from "../../Interfaces/types";
 
 function Navbar() {
-  const allContext = useContext(navContext) as navType;
+  const allContext: navType = useContext(navContext) as navType;
   const isNav: boolean = allContext.isNav;
 
   const scrollTop = (section: string) => {
     if (section === "home") {
       window.scrollTo({
         top: 0,
-        behavior: "smooth"
-      })
+        behavior: "smooth",
+      });
     } else {
-      document.querySelector(`#${section}`)?.scrollIntoView(
-        {
-          behavior: "smooth",
-          block: "start",
-          inline: "nearest"
-    });
-    allContext.setNav(false);
+      document.querySelector(`#${section}`)?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest",
+      });
+      allContext.setNav(false);
     }
   };
 
@@ -46,11 +45,16 @@ function Navbar() {
   };
 
   return (
-    <div className={`${allContext.theme} backdrop-blur backdrop-brightness-50`}>
-      <div className={`topNav rounded-b-md transition bg-lights dark:bg-darks py-8 `}>
+    <div
+      className={`topNav rounded-b-md bg-lights dark:bg-darks transition py-8 `}
+    >
       <div className="mb-16">
         <div className="themeToggler transition mb-16 flex justify-center">
-          <FaTimes className="hover:fill-red-900 md:hidden" size="2em" onClick={closeNav} />
+          <FaTimes
+            className="hover:fill-red-900 md:hidden"
+            size="2em"
+            onClick={closeNav}
+          />
           <span className="hidden md:block" onClick={allContext.toggleTheme}>
             {allContext.theme === "light" ? (
               <FaMoon size={"1.8em"} />
@@ -58,126 +62,128 @@ function Navbar() {
               <FaSun size={"1.8em"} color="yellow" />
             )}
           </span>
-          </div>
+        </div>
       </div>
 
-        <div className="img-Side flex justify-center mb-5 ">
-          <img
-            className={`dark:grayscale ${isNav ? "topImg" : "topSide"} rounded-circle`}
-            src={Pic}
-            alt="L-dot"
-          />
-        </div>
+      <div className="img-Side flex justify-center mb-5 ">
+        <img
+          className={`dark:grayscale ${
+            isNav ? "topImg" : "topSide"
+          } rounded-circle`}
+          src={Pic}
+          alt="L-dot"
+        />
+      </div>
 
-        <nav>
-          <ul
-            className="social"
-            style={{ display: `${isNav ? "block" : "none"}` }}
-          >
-            <li className="social-link phone">
-              <a href="tel:09082547402">
-                {" "}
-                <FontAwesomeIcon icon={faPhone} />
-              </a>
-            </li>
-            <li className="social-link github">
-              <a href="https://github.com/Lawrence-dot">
-                {" "}
-                <FontAwesomeIcon icon={faGithub} />
-              </a>
-            </li>
-            <li className="social-link email">
-              <FontAwesomeIcon icon={faEnvelope} />
-            </li>
-            <li className="social-link whatsapp">
-              <a href="tel:09082547402">
-                <FontAwesomeIcon icon={faWhatsapp} />
-              </a>
-            </li>
-            <li className="social-link linkedin">
-              <a href="https://www.linkedin.com/in/ojediran-lawrence-43b0b41b5">
-                <FontAwesomeIcon icon={faLinkedinIn} />
-              </a>
-            </li>
-          </ul>
+      <nav>
+        <ul
+          className="social"
+          style={{
+            display: `${isNav ? "block" : "none"}`,
+          }}
+        >
+          <li className="social-link phone">
+            <a href="tel:09082547402">
+              {" "}
+              <FontAwesomeIcon icon={faPhone} />
+            </a>
+          </li>
 
-          <ul className="navList">
-            <Tooltip title={`${!isNav ? "Home" : ""}`} arrow placement="right">
-              <li
-                className="nav-link"
-                id="homeA"
-                onClick={() => scrollTop("home")}
+          <li className="social-link github">
+            <a href="https://github.com/Lawrence-dot">
+              {" "}
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+          </li>
+
+          <li className="social-link email">
+            <FontAwesomeIcon icon={faEnvelope} />
+          </li>
+
+          <li className="social-link whatsapp">
+            <a href="tel:09082547402">
+              <FontAwesomeIcon icon={faWhatsapp} />
+            </a>
+          </li>
+
+          <li className="social-link linkedin">
+            <a href="https://www.linkedin.com/in/ojediran-lawrence-43b0b41b5">
+              <FontAwesomeIcon icon={faLinkedinIn} />
+            </a>
+          </li>
+        </ul>
+
+        <ul className="navList">
+          <Tooltip title={`${!isNav ? "Home" : ""}`} arrow placement="right">
+            <li
+              className="nav-link"
+              id="homeA"
+              onClick={() => scrollTop("home")}
+            >
+              {" "}
+              <FontAwesomeIcon className="mr-1" icon={faHomeAlt} />
+              <span
+                className="ml-1"
+                style={{ display: `${isNav ? "block" : "none"}` }}
               >
                 {" "}
-                <FontAwesomeIcon className="mr-1" icon={faHomeAlt} />
-                <span
-                  className="ml-1"
-                  style={{ display: `${isNav ? "block" : "none"}` }}
-                >
-                  {" "}
-                  Home{" "}
-                </span>
-              </li>
-            </Tooltip>
+                Home{" "}
+              </span>
+            </li>
+          </Tooltip>
 
-            <Tooltip title={`${!isNav ? "About" : ""}`} arrow placement="right">
-              <li className="nav-link" onClick={()=>scrollTop("about")}>
-                {" "}
-                {/* <a className="flex" href="javascript:void(0)"> */}
-                <FontAwesomeIcon className="mr-1" icon={faQuestion} />
-                <span style={{ display: `${isNav ? "block" : "none"}` }}>
-                  About{" "}
-                </span>
-                {/* </a> */}
-              </li>
-            </Tooltip>
-            
-            <Tooltip
-              title={`${!isNav ? "Skills" : ""}`}
-              arrow
-              placement="right"
-            >
-              <li className="nav-link" onClick={() => scrollTop("skills")}>
-                {" "}
-                <FontAwesomeIcon className="mr-1" icon={faStar} />
-                <span style={{ display: `${isNav ? "block" : "none"}` }}>
-                  Skills
-                </span>
-              </li>
-            </Tooltip>
+          <Tooltip title={`${!isNav ? "About" : ""}`} arrow placement="right">
+            <li className="nav-link" onClick={() => scrollTop("about")}>
+              {" "}
+              {/* <a className="flex" href="javascript:void(0)"> */}
+              <FontAwesomeIcon className="mr-1" icon={faQuestion} />
+              <span style={{ display: `${isNav ? "block" : "none"}` }}>
+                About{" "}
+              </span>
+              {/* </a> */}
+            </li>
+          </Tooltip>
 
-            <Tooltip
-              title={`${!isNav ? "Projects" : ""}`}
-              arrow
-              placement="right"
-            >
-              <li className="nav-link hidden md:flex" onClick={() => scrollTop("projects")}>
-                {" "}
-                <a className="flex" href="#mySkills">
-                  <FontAwesomeIcon icon={faWandMagic} />
-                  <span style={{ display: `${isNav ? "block" : "none"}` }}>
-                    Projects
-                  </span>
-                </a>
-              </li>
-            </Tooltip>
+          <Tooltip title={`${!isNav ? "Skills" : ""}`} arrow placement="right">
+            <li className="nav-link" onClick={() => scrollTop("skills")}>
+              {" "}
+              <FontAwesomeIcon className="mr-1" icon={faStar} />
+              <span style={{ display: `${isNav ? "block" : "none"}` }}>
+                Skills
+              </span>
+            </li>
+          </Tooltip>
 
-            <Tooltip
-              title={`${!isNav ? "Contact" : ""}`}
-              arrow
-              placement="right"
+          <Tooltip
+            title={`${!isNav ? "Projects" : ""}`}
+            arrow
+            placement="right"
+          >
+            <li
+              className="nav-link hidden md:flex"
+              onClick={() => scrollTop("projects")}
             >
-              <li className="nav-link" onClick={() => scrollTop("contact")} >
-                {" "}
-                <FontAwesomeIcon className="mr-1" icon={faAddressBook} />
+              {" "}
+              <a className="flex" href="#mySkills">
+                <FontAwesomeIcon icon={faWandMagic} />
                 <span style={{ display: `${isNav ? "block" : "none"}` }}>
-                  Contact
+                  Projects
                 </span>
-              </li>
-            </Tooltip>
-          </ul>
-        </nav>
-      </div>
+              </a>
+            </li>
+          </Tooltip>
+
+          <Tooltip title={`${!isNav ? "Contact" : ""}`} arrow placement="right">
+            <li className="nav-link" onClick={() => scrollTop("contact")}>
+              {" "}
+              <FontAwesomeIcon className="mr-1" icon={faAddressBook} />
+              <span style={{ display: `${isNav ? "block" : "none"}` }}>
+                Contact
+              </span>
+            </li>
+          </Tooltip>
+        </ul>
+      </nav>
     </div>
   );
 }

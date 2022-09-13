@@ -1,8 +1,6 @@
 import React from 'react'
 import {ProjType} from '../Interfaces/types'
 
-
-
 function Project(props: ProjType) {
     return (
         <div className="card mx-auto dark:bg-gray-900 dark:text-white rounded-md shadow-md bg-white toDo border-blue-100">

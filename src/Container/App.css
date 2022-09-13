@@ -21,5 +21,5 @@ li {
 }
 
 .transition {
-  transition: all .5s ease-in;
+  transition: all .6s ease-out;
 }
