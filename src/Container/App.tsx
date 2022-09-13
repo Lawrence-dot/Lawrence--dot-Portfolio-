@@ -59,7 +59,6 @@ function App() {
                   <FaSun size={"1.8em"} color="yellow" />
                 )}
               </button>
-              9
             </div>{" "}
             <Home />
           </div>
