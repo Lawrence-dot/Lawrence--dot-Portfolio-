@@ -86,15 +86,15 @@ export const Projects: ProjType[]  = [
     },
 
     {
-        title: "Studio Website",
+        title: "Lotreach Website",
         stack: [
-            "Html",
-            "Css",
-            "Javascript"
+            "Typescript",
+            "Next JS",
+            "Tailwind Css"
         ],
-        description: "Studio Website built with Html, Css, and Javascript.",
-        link: "https://lawrence-dot.github.io/ELO/",
-        src: "./Images/elo.png"
+        description: "I build a Responsive and intruisive Website Using Typescript, Next Js and Tailwind Css",
+        link: "https://lotreach.netlify.app/",
+        src: "./Images/lotreach.png"
     }
 
     

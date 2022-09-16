@@ -7,7 +7,6 @@ import {
   SiBootstrap,
   SiFirebase,
   SiJquery,
-  SiSass,
   SiTailwindcss,
   SiReact,
   SiCss3,
@@ -294,9 +293,9 @@ function Home() {
                 </div>
 
                 <div className="bg-gray-700 p-3 w-1/2 md:1/3 m-5 rounded-lg">
-                  <SiSass />
+                  <SiGithub />
                   <br />
-                  Sass
+                  Git
                 </div>
 
                 <div className="bg-gray-700 w-1/2 md:1/3 p-3 m-5 rounded-lg">
