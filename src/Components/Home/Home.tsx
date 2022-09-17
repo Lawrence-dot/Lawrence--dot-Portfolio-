@@ -380,9 +380,11 @@ function Home() {
                       </li>
 
                       <li className="contactLink email">
-                        <FaEnvelope
-                          color={allContext.theme === "light" ? "red" : "white"}
-                        />
+                        <a href="mailto:damilareojediran3@gmail.com">
+                          <FaEnvelope
+                            color={allContext.theme === "light" ? "red" : "white"}
+                          />
+                        </a>
                       </li>
 
                       <li className="contactLink whatsapp">
