@@ -152,8 +152,9 @@ function Home() {
                     </a>
                   </li>
                   <li className="contactLink email">
-                    <a href="mailto:damilareojediran3@gmail.com"></a>
-                    <AiFillMail />
+                    <a href="mailto:damilareojediran3@gmail.com">
+                      <AiFillMail />
+                    </a>
                   </li>
                   <li className="contactLink whatsapp">
                     <a href="tel:09082547402">
