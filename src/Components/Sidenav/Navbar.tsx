@@ -97,7 +97,9 @@ function Navbar() {
           </li>
 
           <li className="social-link email">
-            <FontAwesomeIcon icon={faEnvelope} />
+            <a href="mailto:damilareojediran3@gmail.com">
+              <FontAwesomeIcon icon={faEnvelope} />
+            </a>
           </li>
 
           <li className="social-link whatsapp">
