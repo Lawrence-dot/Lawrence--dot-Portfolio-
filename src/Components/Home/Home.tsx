@@ -191,12 +191,13 @@ function Home() {
                     />
                   </div>
                 </div>
-                <div className="w-full my-auto md:w-64">
-                  <p className="text-center">
+                <div className="w-full my-auto md:w-64 sm:mt-2">
+                  <p className="text-justify">
                     {" "}
-                    My Name is Ojediran Lawrence. A Computer Engineering Student
+                    My Name is Ojediran Lawrence. <br />
+                    A Computer Engineering Student
                     with deep passion for design and development of software
-                    products. I Design Interactive and Responsive Websites and
+                    products. <br /> I Design Interactive and Responsive Websites and
                     Web Applications.
                   </p>
                 </div>
