@@ -181,7 +181,7 @@ function Home() {
                 </h1>
               </div>
               <div className="flex flex-wrap my-5 justify-center row">
-                <div className="w-full md:w-64">
+                <div className="w-full md:w-64 mb-2">
                   <div className="abtImg mx-auto">
                     <img
                       className="h-100 dark:grayscale"
@@ -194,14 +194,18 @@ function Home() {
                 <div className="w-full my-auto md:w-64 sm:mt-2">
                   <p className="text-justify">
                     {" "}
-                    My Name is Ojediran Lawrence. <br />
-                    A Computer Engineering Student
-                    with deep passion for design and development of software
-                    products. <br /> I Design Interactive and Responsive Websites and
-                    Web Applications.
+                    My Name is Ojediran Lawrence. <br />A Software Engineer with
+                    deep passion for design and development of software
+                    products.
+                  </p>
+                  <p className="text-justify">
+                    I Design Proffesional, Interactive and Responsive Websites
+                    and Web Applications. I also design web applications with
+                    topnotch user experience and user interface.
                   </p>
                 </div>
               </div>
+
               <div className="myInfo flex sm:justify-center my-2">
                 <ul className="infoList flex grid sm:grid-cols-2 text-left justify-left">
                   <li className="infoBirtday">
@@ -383,7 +387,9 @@ function Home() {
                       <li className="contactLink email">
                         <a href="mailto:damilareojediran3@gmail.com">
                           <FaEnvelope
-                            color={allContext.theme === "light" ? "red" : "white"}
+                            color={
+                              allContext.theme === "light" ? "red" : "white"
+                            }
                           />
                         </a>
                       </li>
