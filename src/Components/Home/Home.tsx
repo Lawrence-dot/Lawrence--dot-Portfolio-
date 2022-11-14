@@ -199,7 +199,7 @@ function Home() {
                     products.
                   </p>
                   <p className="text-justify">
-                    I Design Proffesional, Interactive and Responsive Websites
+                    I Design Profesional, Interactive and Responsive Websites
                     and Web Applications. I also design web applications with
                     topnotch user experience and user interface.
                   </p>
