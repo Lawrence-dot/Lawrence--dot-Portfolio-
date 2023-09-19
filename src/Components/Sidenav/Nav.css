@@ -1,0 +1,77 @@
+.topNav {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(8px);
+  color: white;
+  height: 100vh;
+  z-index: 99;
+}
+
+svg {
+  cursor: pointer;
+}
+
+.back {
+  background-image: url("../../Assets/bgg.jpg");
+  background-repeat: no-repeat;
+  position: fixed;
+  padding: 100vh 20px;
+  background-size: cover;
+  z-index: -1;
+}
+
+.social li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.social li svg {
+  height: 20px;
+  fill: white;
+  width: 26px;
+}
+
+.navList li {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+  height: 30px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.navList li:hover {
+  transform: scale(1.01);
+}
+
+.navList span {
+  margin-top: -3px;
+  margin-left: -2px;
+}
+
+.topSide {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-bottom: 3rem;
+}
+
+.topImg {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+
+.themeToggler span {
+  cursor: pointer;
+  transition: all 1s ease-in;
+}
+
+.nav-link {
+  transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+  .back {
+    padding: 100vh 96px;
+  }
+}

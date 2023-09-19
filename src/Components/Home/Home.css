@@ -1,0 +1,331 @@
+.Home {
+  overflow-x: hidden;
+}
+
+.intro h2 {
+  font-family: cursive;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.navToggler {
+  z-index: 99;
+}
+
+.abtHead {
+  word-spacing: 2px;
+}
+
+#nav-icon {
+  width: 40px;
+  height: 20px;
+  position: relative;
+  margin: 0 auto;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+#nav-icon span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  background: white;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+#nav-icon span:nth-child(1) {
+  top: 0px;
+}
+
+#nav-icon span:nth-child(2) {
+  top: 10px;
+}
+
+#nav-icon span:nth-child(3) {
+  top: 20px;
+}
+
+.homeHead img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.container-m {
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 2200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.socialList li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.socialList li svg {
+  height: 20px;
+  fill: white;
+  width: 26px;
+}
+
+  .abtImg {
+    border: 5px groove black;
+    border-radius: 8px;
+    max-width: 230px;
+    margin-left: auto;
+    height: 90%;
+}
+
+
+.abtImg img {
+  height: 100%;
+  width: 100%;
+}
+
+.intro {
+  background-color: rgba(0, 0, 0, 0.823);
+}
+
+.intro h1 {
+  font-family: fantasy;
+}
+
+/* .infoList li {
+  margin: 0 10px;
+} */
+
+.skills {
+  justify-items: center;
+  grid-column-gap: 0px;
+}
+
+.skills svg {
+  margin: auto;
+  font-size: 4em;
+  height: 1em;
+  width: 30px;
+}
+
+.skills div {
+  animation: zoomInUp 2s;
+  max-width: 140px;
+}
+
+.sectionHead {
+  background-size: 100%;
+  z-index: 1;
+}
+
+.homeHead {
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.541);
+}
+
+.infoList li {
+  display: flex;
+  margin-right: 11px;
+}
+
+.infoList svg {
+  fill: rgb(243, 15, 15);
+  margin-top: 2.3px;
+  margin-right: 4px;
+}
+
+.border-left {
+  border-left: 8px solid rgb(243, 15, 15);
+  padding-left: 8px;
+}
+
+.card {
+  border: 1px groove rgb(27, 25, 25. 0.7);
+  margin: 15px;
+  max-width: 350px;
+  height: 530px;
+}
+
+.card h1 {
+  font-family: cursive;
+}
+
+.cardInfo {
+  height: 55px;
+}
+
+.cardBtn a {
+  position: relative;
+  bottom: -15px;
+  transition: all .5s ease-in;
+}
+
+.cardBtn {
+  align-content: flex-end;
+}
+
+.cardImg img {
+  height: 310px;
+  width: 100%;
+}
+
+.contactMe h1 {
+  font-family: fantasy;
+}
+
+.contactInfo svg {
+  margin-top: 3px;
+  margin-right: 3px;
+}
+
+form {
+  width: 100%;
+}
+
+form input {
+  background: none;
+}
+
+.textBox {
+  height: 90px;
+}
+
+.projs div {
+  opacity: 0.98;
+}
+
+.cards {
+  border: 1px groove rgb(27, 25, 25. 0.7);
+  margin: 15px;
+  max-width: 400px;
+}
+
+.contactLink svg {
+  height: 20px;
+  width: 20px;
+  margin: 2px 5px;
+}
+
+.contactInfo span {
+  cursor: pointer;
+}
+
+/* .contactInfo span:hover {
+  transform: scale(1.01);
+  transition: all .3s ease-in;
+} */
+
+.moTheme {
+  right: 5px;
+  bottom: 0px;
+}
+
+
+@media (max-width: 768px) {
+  p {
+    font-size: 1rem !important;
+  }
+
+  br {
+    display: none;
+  }
+
+  .sectionHead {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+
+  .intro {
+    margin-top: -12px;
+    padding: 41.5vh 0;
+  }
+
+  .intro h1 {
+    margin-top: -30px;
+    font-size: 4rem;
+  }
+
+  .card {
+    height: 505px;
+  }
+
+  .cardImg img {
+    height: 290px;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .abttext {
+    margin-top: -15px;
+  }
+
+  p {
+    font-size: 1rem !important;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  .skills div {
+    animation: zoomInUp 2s;
+    max-width: 100px;
+    max-height: 100px;
+    padding: 5px;
+  }
+
+  .sectionHead {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+
+  .intro {
+    margin-top: -15px;
+    padding: 50.3vh 0;
+  }
+
+  .intro h1 {
+    font-size: 3rem;
+    margin-top: -8.6rem;
+  }
+
+  .cards {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 300px) {
+
+  h1,
+  p,
+  h2 {
+    font-size: 100%;
+  }
+}

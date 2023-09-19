@@ -1,0 +1,25 @@
+.App {
+  background-image: url('../Assets/bgg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+.mainPage {
+  overflow-x: hidden;
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-Toggler svg {
+  height: 30px;
+  width: 40px;
+}
+
+.transition {
+  transition: all .6s ease-out;
+}

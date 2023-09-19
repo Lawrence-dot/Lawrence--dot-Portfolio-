@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "title": "Image Gallery App",
+            "stack": [
+                "Vanila Js",
+                "React Js",
+                "Bootstrap Css"
+            ],
+            "description": "An Interactive Image Gallery Web Application built
+            with Html, Css, Vanila Js, React Js, Bootrap Css.",
+            "link": "https://lawrence-dot.github.io/Image-Gallery-/"
+            "src": "../../Assets/imgs.png"
+        },
+        {
+            "title": "To Do List",
+            "stack": [
+                "Vanila Js",
+                "React Js",
+                "Bootstrap Css"
+            ],
+            "description": "An Interactive Image Gallery Web Application built
+            with Html, Css, Vanila Js, React Js, Bootrap Css.",
+            "link": "https://lawrence-dot.github.io/Image-Gallery-/"
+            "src": "../../Assets/imgs.png"
+        }
+    ]
+}
