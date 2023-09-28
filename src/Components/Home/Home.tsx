@@ -343,7 +343,7 @@ function Home() {
             className="contactMe py-4text-black dark:text-white"
             id="contact"
           >
-            <Fade down>
+            <Fade up>
               <div className="contactJHead flex justify-center">
                 <h1 className="text-4xl md:text-5xl font-bold border-left my-4">
                   {" "}
