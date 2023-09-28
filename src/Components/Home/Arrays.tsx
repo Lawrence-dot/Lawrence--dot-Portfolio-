@@ -2,6 +2,28 @@ import { ProjType } from "../../Interfaces/types";
 
 export const Projects: ProjType[] = [
   {
+    title: "Construction Website",
+    stack: ["Tailwind", "React Js"],
+    description: "An Simple Construction Landing Page",
+    link: "https://construction-khaki.vercel.app",
+    src: "./Images/construct.png",
+  },
+  {
+    title: "Rock, Paper, Scissors",
+    stack: ["Tailwind", "React Js", "Api"],
+    description: "An Simple Web Game Inspired by Frontendmentor",
+    link: "https://rock-game-orpin.vercel.app/Home",
+    src: "./Images/rock.png",
+  },
+
+  {
+    title: "Multistep Form",
+    stack: ["Typescript", "React JS", "Tailwind"],
+    description: "An Interactive Multi Step Form with Error Checks.",
+    link: "https://form-hixa.vercel.app/",
+    src: "./Images/form.jpg",
+  },
+  {
     title: "Image Gallery App",
     stack: ["Vanila Js", "React Js", "Bootstrap Css"],
     description:
@@ -17,22 +39,6 @@ export const Projects: ProjType[] = [
       "An Interactive Web Application which automates the process of exchanging giftcards and other cryptocurrencies.",
     link: "https://donna-five.vercel.app/",
     src: "./Images/donna.png",
-  },
-
-  {
-    title: "Rock, Paper, Scissors",
-    stack: ["Tailwind", "React Js"],
-    description: "An Simple Web Game Inspired by Frontendmentor",
-    link: "https://rock-game-orpin.vercel.app/Home",
-    src: "./Images/n.jpg",
-  },
-
-  {
-    title: "Multistep Form",
-    stack: ["Typescript", "React JS", "Tailwind"],
-    description: "An Interactive Multi Step Form with Error Checks.",
-    link: "https://form-hixa.vercel.app/",
-    src: "./Images/form.jpg",
   },
 
   {
