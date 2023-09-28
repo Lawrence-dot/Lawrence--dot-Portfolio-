@@ -9,8 +9,15 @@ export const Projects: ProjType[] = [
     src: "./Images/construct.png",
   },
   {
-    title: "Rock, Paper, Scissors",
+    title: "Quiz App",
     stack: ["Tailwind", "React Js", "Api"],
+    description: "An Simple Interactive web Quiz game, learn and enjoy",
+    link: "https://quiz-six-xi.vercel.app",
+    src: "./Images/quiz.png",
+  },
+  {
+    title: "Rock, Paper, Scissors",
+    stack: ["Tailwind", "React Js"],
     description: "An Simple Web Game Inspired by Frontendmentor",
     link: "https://rock-game-orpin.vercel.app",
     src: "./Images/rock.png",
