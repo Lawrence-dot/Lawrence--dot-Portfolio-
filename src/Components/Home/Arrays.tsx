@@ -12,7 +12,7 @@ export const Projects: ProjType[] = [
     title: "Rock, Paper, Scissors",
     stack: ["Tailwind", "React Js", "Api"],
     description: "An Simple Web Game Inspired by Frontendmentor",
-    link: "https://rock-game-orpin.vercel.app/Home",
+    link: "https://rock-game-orpin.vercel.app",
     src: "./Images/rock.png",
   },
 
