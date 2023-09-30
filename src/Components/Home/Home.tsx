@@ -180,9 +180,10 @@ function Home() {
                   About Me
                 </h1>
               </div>
-              <div className="flex flex-wrap mt-7 mb-2 justify-center row">
-                <div className="w-full md:w-72 mb-2">
-                  <div className="abtImg mx-auto">
+
+              <div className="flex flex-wrap abtbdy mt-7 mb-2 flex-col">
+                <div className="w-full flex mb-2 abtdimg">
+                  <div className="abtImg">
                     <img
                       className="h-100 dark:grayscale"
                       src={require("../../Assets/me.jpg")}
@@ -190,50 +191,50 @@ function Home() {
                       alt="L-dot"
                     />
                   </div>
+
+                  <div className="abttext ml-5">
+                    <p className="text-left text-md lg:text-lg">
+                      {" "}
+                      My Name is Ojediran Lawrence. <br /> A Software Engineer
+                      with deep passion for design and development of software
+                      products.
+                    </p>
+
+                    <p className="text-left text-md sm:text-lg">
+                      I Design and Build Profesional, Interactive and Responsive
+                      Websites and Web Applications. I also design web
+                      applications with topnotch user experience and user
+                      interfaces.
+                    </p>
+                  </div>
                 </div>
 
-                <div className="w-full my-auto lg:w-96 sm:mt-2 font-sans abttext">
-                  <p className="text-left text-md lg:text-lg">
-                    {" "}
-                    My Name is Ojediran Lawrence. <br /> A Software Engineer
-                    with deep passion for design and development of software
-                    products.
-                  </p>
-
-                  <p className="text-left text-md sm:text-lg">
-                    I Design and Build Profesional, Interactive and Responsive
-                    Websites and Web Applications. I also design web
-                    applications with topnotch user experience and user
-                    interfaces.
-                  </p>
+                <div className="myInfo flex my-2">
+                  <ul className="infoList flex grid sm:grid-cols-2 text-left justify-left text-md sm:text-lg font-sans">
+                    <li className="infoBirtday">
+                      <AiFillGift /> Birthday: 28th August
+                    </li>
+                    <li className="infoInterest">
+                      <FaGamepad />
+                      Interests: Gaming, Reading
+                    </li>
+                    <li className="infoDegree flex">
+                      <FaGraduationCap /> Degree: B.Eng Computer Engineering
+                    </li>
+                    <li className="infoSchool flex">
+                      <FaSchool color="red" />
+                      School: Olabisi Onabanjo University
+                    </li>
+                    <li className="infoLocation">
+                      <FaLocationArrow />
+                      Location: Lagos, Nigeria
+                    </li>
+                    <li className="infoMail">
+                      <AiFillMail />
+                      Email: damilareojediran3@gmail.com
+                    </li>
+                  </ul>
                 </div>
-              </div>
-
-              <div className="myInfo flex sm:justify-center my-2">
-                <ul className="infoList flex grid sm:grid-cols-2 text-left justify-left text-md sm:text-lg font-sans">
-                  <li className="infoBirtday">
-                    <AiFillGift /> Birthday: 28th August
-                  </li>
-                  <li className="infoInterest">
-                    <FaGamepad />
-                    Interests: Gaming, Reading
-                  </li>
-                  <li className="infoDegree flex">
-                    <FaGraduationCap /> Degree: B.Eng Computer Engineering
-                  </li>
-                  <li className="infoSchool flex">
-                    <FaSchool color="red" />
-                    School: Olabisi Onabanjo University
-                  </li>
-                  <li className="infoLocation">
-                    <FaLocationArrow />
-                    Location: Lagos, Nigeria
-                  </li>
-                  <li className="infoMail">
-                    <AiFillMail />
-                    Email: damilareojediran3@gmail.com
-                  </li>
-                </ul>
               </div>
             </div>
           </Fade>
@@ -326,7 +327,7 @@ function Home() {
 
         <div className="projContents  py-20 bg-light dark:bg-dark container-m">
           <div className="myProj" id="projects">
-            <div className="projHead flex justify-center">
+            <div className="projHead mb-5 flex justify-center">
               <h1 className="text-4xl md:text-5xl font-bold text-white border-left">
                 Recent Projects
               </h1>

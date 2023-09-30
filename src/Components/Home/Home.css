@@ -1,8 +1,13 @@
-.Home {
+.App {
   overflow-x: hidden;
   min-width: 320px;
-  max-width: 85rem;
+  max-width: 90rem;
   margin: 0 auto;
+}
+
+.abtdimg {
+  max-height: 225px;
+  max-height: 210px;
 }
 
 .intro h2 {
@@ -11,6 +16,11 @@
 
 .pointer {
   cursor: pointer;
+}
+
+.abtbdy {
+  max-width: 800px;
+    margin: 33px auto;
 }
 
 .navToggler {
@@ -93,18 +103,19 @@
   width: 26px;
 }
 
-  .abtImg {
-    border: 5px groove black;
-    border-radius: 8px;
-    max-width: 230px;
-    margin-left: auto;
-    height: 90%;
+.abtImg {
+  border: 2px groove black;
+  border-radius: 10px;
+  max-width: 230px;
+  margin-left: auto;
+  box-shadow: 1px 0.5px 16px 1px rgb(54, 54, 54);
 }
 
 
 .abtImg img {
   height: 100%;
   width: 100%;
+  border-radius: 10px;
 }
 
 .intro {
