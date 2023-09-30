@@ -1,6 +1,7 @@
 .Home {
   overflow-x: hidden;
   min-width: 320px;
+  max-width: 85rem;
   margin: 0 auto;
 }
 
