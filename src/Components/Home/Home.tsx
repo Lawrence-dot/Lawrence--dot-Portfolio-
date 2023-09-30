@@ -182,7 +182,7 @@ function Home() {
               </div>
 
               <div className="flex flex-wrap abtbdy mt-7 mb-2 flex-col">
-                <div className="w-full flex mb-2 abtdimg">
+                <div className="w-full flex mb-2 abtdimg flex-col sm:flex-row">
                   <div className="abtImg">
                     <img
                       className="h-100 dark:grayscale"
@@ -198,12 +198,9 @@ function Home() {
                       My Name is Ojediran Lawrence. <br /> A Software Engineer
                       with deep passion for design and development of software
                       products.
-                    </p>
-
-                    <p className="text-left text-md sm:text-lg">
-                      I Design and Build Profesional, Interactive and Responsive
-                      Websites and Web Applications. I also design web
-                      applications with topnotch user experience and user
+                      <br /> I Design and Build Profesional, Interactive and
+                      Responsive Websites and Web Applications. I also design
+                      web applications with topnotch user experience and user
                       interfaces.
                     </p>
                   </div>

@@ -1,3 +1,14 @@
+@font-face {  
+  font-family: rubiklight;
+  src: url('../../Assets/fonts/Rubik-Light.ttf');
+}
+
+@font-face {  
+  font-family: rubik;
+  src: url('../../Assets/fonts/Rubik-Bold.ttf');
+}
+
+
 .App {
   overflow-x: hidden;
   min-width: 320px;
@@ -8,6 +19,10 @@
 .abtdimg {
   max-height: 225px;
   max-height: 210px;
+}
+
+.intro {
+  height: 100vh;
 }
 
 .intro h2 {
@@ -84,9 +99,10 @@
   border-radius: 50%;
 }
 
+
 .container-m {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   max-width: 2200px;
   margin-left: auto;
   margin-right: auto;
@@ -159,7 +175,7 @@
 
 .infoList li {
   display: flex;
-  margin-right: 11px;
+  margin-right: 30px;
 }
 
 .infoList svg {
@@ -244,11 +260,6 @@ form input {
   cursor: pointer;
 }
 
-/* .contactInfo span:hover {
-  transform: scale(1.01);
-  transition: all .3s ease-in;
-} */
-
 .moTheme {
   right: 5px;
   bottom: 0px;
@@ -258,6 +269,32 @@ form input {
 @media (max-width: 768px) {
   p {
     font-size: 1rem !important;
+  }
+
+  .abtdimg {
+    max-height: 605px;
+    max-height: 600px;
+  }
+
+  .abtImg img::before {
+    background-color: red;
+    height: 400px;
+    width: 400px;
+  }
+
+  .abtImg {
+    border: 2px groove black;
+    border-radius: 10px;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 0.5px 16px 1px rgb(54, 54, 54);
+    margin-bottom: 5px;
+  }
+
+  .abtImg img {
+    max-height: 200px;
+    width: 211px;
   }
 
   br {
@@ -290,16 +327,24 @@ form input {
     width: 100%;
   }
 
+  .abttext {
+
+    max-width: 420px;
+  }
+
+
 }
 
 @media (max-width: 576px) {
 
-  .abttext {
-    margin-top: -15px;
-  }
-
   p {
     font-size: 1rem !important;
+  }
+
+  .abttext {
+    margin-left: 0px;
+    margin-top: 5px;
+    max-width: 420px;
   }
 
   .hidden {
