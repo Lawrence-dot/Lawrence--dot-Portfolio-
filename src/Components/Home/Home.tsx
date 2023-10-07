@@ -116,7 +116,11 @@ function Home() {
             </div>
 
             <div className="toggler ml-auto mt-2">
-              <div className="mb-2" id="nav-icon" onClick={navToggler}>
+              <div
+                className="mb-2 flex justify-right"
+                id="nav-icon"
+                onClick={navToggler}
+              >
                 <span></span>
                 <span></span>
                 <span></span>
@@ -133,7 +137,9 @@ function Home() {
             <div className="introContents">
               <Fade down>
                 {" "}
-                <h1 className="text-5xl sm:text-7xl font-bold">Lawrence-Dot</h1>
+                <h1 className="text-5xl my-2 sm:text-7xl font-bold">
+                  Lawrence-Dot
+                </h1>
               </Fade>
 
               <Fade up>
@@ -192,8 +198,8 @@ function Home() {
                     />
                   </div>
 
-                  <div className="abttext ml-5">
-                    <p className="text-left text-md lg:text-lg">
+                  <div className="abttext flex ml-5">
+                    <p className="text-left my-auto text-md lg:text-lg">
                       {" "}
                       My Name is Ojediran Lawrence. <br /> A Software Engineer
                       with deep passion for design and development of software
@@ -343,7 +349,7 @@ function Home() {
           >
             <Fade up>
               <div className="contactJHead flex justify-center">
-                <h1 className="text-4xl md:text-5xl font-bold border-left my-4">
+                <h1 className="text-4xl md:text-5xl font-bold border-left my-4 mb-7">
                   {" "}
                   Contact Me{" "}
                 </h1>

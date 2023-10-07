@@ -19,6 +19,10 @@ svg {
   z-index: -1;
 }
 
+.social {
+  margin: 0 5px;
+}
+
 .social li {
   display: inline-block;
   margin: 5px;
@@ -32,8 +36,7 @@ svg {
 
 .navList li {
   display: flex;
-  justify-content: center;
-  margin: 30px 0px;
+  margin: 30px auto;
   height: 30px;
   padding: 5px;
   cursor: pointer;
@@ -73,5 +76,14 @@ svg {
 @media (max-width: 768px) {
   .back {
     padding: 100vh 96px;
+  }
+
+  .navList li {
+    display: flex;
+    width: 70px;
+  }
+
+  .navList span {
+    margin-left: 2px;
   }
 }

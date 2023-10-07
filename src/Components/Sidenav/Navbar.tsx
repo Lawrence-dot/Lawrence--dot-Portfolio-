@@ -3,8 +3,8 @@ import "./Nav.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAddressBook,
+  faFileCode,
   faHomeAlt,
-  faQuestion,
   faStar,
   faWandMagic,
 } from "@fortawesome/free-solid-svg-icons";
@@ -15,7 +15,6 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { navContext } from "../../Container/App";
-import Pic from "../../Assets/pic.jpg";
 import { FaTimes, FaMoon, FaSun } from "react-icons/fa";
 import { Tooltip } from "@mui/material";
 import { navType } from "../../Interfaces/types";
@@ -48,7 +47,7 @@ function Navbar() {
     <div
       className={`topNav rounded-b-md bg-lights dark:bg-darks transition py-8 `}
     >
-      <div className="mb-16">
+      <div className="mb-10">
         <div className="themeToggler transition mb-16 flex justify-center">
           <FaTimes
             className="hover:fill-red-900 md:hidden"
@@ -57,20 +56,20 @@ function Navbar() {
           />
           <span className="hidden md:block" onClick={allContext.toggleTheme}>
             {allContext.theme === "light" ? (
-              <FaMoon size={"1.8em"} />
+              <FaMoon className="p-1" size={"1.8em"} />
             ) : (
-              <FaSun size={"1.8em"} color="yellow" />
+              <FaSun className="p-1" size={"1.8em"} color="yellow" />
             )}
           </span>
         </div>
       </div>
 
-      <div className="img-Side flex justify-center mb-5 ">
+      <div className="img-Side flex justify-center mb-10">
         <img
           className={`dark:grayscale ${
             isNav ? "topImg" : "topSide"
           } rounded-circle`}
-          src={Pic}
+          src="./images/pimg.png"
           alt="L-dot"
         />
       </div>
@@ -138,7 +137,7 @@ function Navbar() {
             <li className="nav-link" onClick={() => scrollTop("about")}>
               {" "}
               {/* <a className="flex" href="javascript:void(0)"> */}
-              <FontAwesomeIcon className="mr-1" icon={faQuestion} />
+              <FontAwesomeIcon className="mr-1" icon={faFileCode} />
               <span style={{ display: `${isNav ? "block" : "none"}` }}>
                 About{" "}
               </span>

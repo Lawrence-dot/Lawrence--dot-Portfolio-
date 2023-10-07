@@ -33,7 +33,7 @@ function App() {
           <div
             className={`saidNav md:fixed  ${
               isNav
-                ? "fixed w-48 opacity-1"
+                ? "fixed w-56 opacity-1"
                 : "w-0 opacity-0 md:opacity-90 md:w-10"
             }`}
           >
@@ -44,7 +44,7 @@ function App() {
           <div
             className={`mainPage ${
               isNav
-                ? "flex-none translate-x-48 transition overflow-x-hidden"
+                ? "flex-none w-full ml-d translate-x-48 transition overflow-x-hidden"
                 : "flex-auto transition md:ml-10"
             } `}
           >
@@ -54,9 +54,9 @@ function App() {
                 onClick={allContext.toggleTheme}
               >
                 {allContext.theme === "light" ? (
-                  <FaMoon size={"1.8em"} color="white" />
+                  <FaMoon className="p-1" size={"1.8em"} color="white" />
                 ) : (
-                  <FaSun size={"1.8em"} color="yellow" />
+                  <FaSun className="p-1" size={"1.8em"} color="yellow" />
                 )}
               </button>
             </div>{" "}
