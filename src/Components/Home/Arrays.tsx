@@ -17,7 +17,7 @@ export const Projects: ProjType[] = [
   },
   {
     title: "Rock, Paper, Scissors",
-    stack: ["Tailwind", "React Js"],
+    stack: ["Tailwind Css", "React Js"],
     description: "An Simple Web Game Inspired by Frontendmentor",
     link: "https://rock-game-orpin.vercel.app",
     src: "./Images/rock.png",
@@ -50,9 +50,9 @@ export const Projects: ProjType[] = [
 
   {
     title: "To Do List",
-    stack: ["Typescript", "React Js", "Bootstrap Css"],
+    stack: ["Typescript", "React", "Bootstrap"],
     description:
-      "An Interactive To Do Web Application built with Html, Css, Typescript, React Js, Bootrap Css.",
+      "An Interactive To Do Web Application built with Typescript, React, Bootstrap.",
     link: "https://todo-elo.netlify.app/",
     src: "./Images/todo.png",
   },
@@ -61,7 +61,7 @@ export const Projects: ProjType[] = [
     title: "Notepad App",
     stack: ["Vanila Js", "React Js", "Bootstrap Css"],
     description:
-      "An Interactive Image Gallery Web Application built with Html, Css, Vanila Js, React Js, Bootrap Css.",
+      "An Interactive Image Gallery Web Application built with Vanila Js, React Js, Bootrap Css.",
     link: "https://notepad-elo.netlify.app",
     src: "./Images/notepad.png",
   },
@@ -70,7 +70,7 @@ export const Projects: ProjType[] = [
     title: "Countdown App",
     stack: ["Vanila Js", "React Js", "Tailwind Css"],
     description:
-      "I built an interactive Countdown Web Application built with Html, Css, Vanila Js, React Js, Tailwind Css.",
+      "I built an interactive Countdown Web Application built with React Js, Tailwind Css.",
     link: "https://react-countdown-app.netlify.app/",
     src: "./Images/countdown.png",
   },
@@ -79,7 +79,7 @@ export const Projects: ProjType[] = [
     title: "Lawrence Dot",
     stack: ["Typescript", "React Js", "Tailwind Css"],
     description:
-      "I built my portfolio website built with Html, Css, Typescript, React Js, Tailwind Css.",
+      "I built my portfolio website built with Typescript, React Js, Tailwind Css.",
     link: "https://lawrence-dot-portfolio.vercel.app/",
     src: "./Images/law.png",
   },
@@ -88,7 +88,7 @@ export const Projects: ProjType[] = [
     title: "Moon Website",
     stack: ["Vanila Js", "jQuery", "Css"],
     description:
-      "Moon Website(Frontendmentor Challenge) built with Html, Css, Vanila Js, React Js, Tailwind Css.",
+      "Moon Website(Frontendmentor Challenge) built with Vanila Js, React Js, Tailwind Css.",
     link: "https://lawrence-dot.github.io/Moon-Website",
     src: "./Images/moon.png",
   },
