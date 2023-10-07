@@ -77,7 +77,7 @@ function Navbar() {
 
       <nav>
         <ul
-          className="social"
+          className="social flex justify-center"
           style={{
             display: `${isNav ? "block" : "none"}`,
           }}
