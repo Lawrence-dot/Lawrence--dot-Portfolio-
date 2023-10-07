@@ -32,9 +32,9 @@ export const Projects: ProjType[] = [
   },
   {
     title: "Image Gallery App",
-    stack: ["Vanila Js", "React Js", "Bootstrap Css"],
+    stack: ["React Js", "Bootstrap Css", "Firebase"],
     description:
-      "An Interactive Image Gallery Web Application built with Html, Css, Vanila Js, React Js, Bootrap Css.",
+      "An Interactive Image Gallery Web Application built with Vanila Js, React Js, Bootrap Css.",
     link: "https://lawrence-dot.github.io/Image-Gallery-/",
     src: "./Images/imgs.png",
   },
