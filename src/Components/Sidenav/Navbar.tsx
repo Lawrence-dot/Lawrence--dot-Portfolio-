@@ -14,6 +14,7 @@ import {
   faLinkedinIn,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
+import Pic from "../../Assets/pimg.png";
 import { navContext } from "../../Container/App";
 import { FaTimes, FaMoon, FaSun } from "react-icons/fa";
 import { Tooltip } from "@mui/material";
@@ -69,7 +70,7 @@ function Navbar() {
           className={`dark:grayscale ${
             isNav ? "topImg" : "topSide"
           } rounded-circle`}
-          src="./images/pimg.png"
+          src={Pic}
           alt="L-dot"
         />
       </div>
