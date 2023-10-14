@@ -178,9 +178,9 @@ function Home() {
           </div>
         </div>
 
-        <div className="abtContents mx-auto py-3 bg-light dark:bg-dark container-m">
+        <div className="abtContents mx-auto py-8 bg-light dark:bg-dark container-m">
           <Fade up>
-            <div className="aboutMe m-0 text-white py-3" id="about">
+            <div className="aboutMe m-0 text-white" id="about">
               <div className="abtHead flex justify-center">
                 <h1 className="text-4xl md:text-5xl border-left font-bold text-center mb-1">
                   About Me
@@ -244,7 +244,7 @@ function Home() {
         </div>
 
         <div className="skilsContent bg-white dark:bg-black opacity-90 container-m">
-          <div className="mySkills show py-16 text-white" id="skills">
+          <div className="mySkills show py-8 text-white" id="skills">
             <div className="skillsHead flex justify-center">
               <h1 className="text-4xl md:text-5xl font-bold text-dark dark:text-white border-left">
                 {" "}
@@ -328,7 +328,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="projContents py-20 bg-light dark:bg-dark container-m">
+        <div className="projContents py-8 bg-light dark:bg-dark container-m">
           <div className="myProj" id="projects">
             <div className="projHead mb-5 flex justify-center">
               <h1 className="text-4xl md:text-5xl font-bold text-white border-left">
@@ -344,12 +344,12 @@ function Home() {
 
         <div className="contactContents container-m bg-white dark:bg-black opacity-90">
           <div
-            className="contactMe py-4text-black dark:text-white"
+            className="contactMe py-8 text-black dark:text-white"
             id="contact"
           >
             <Fade up>
               <div className="contactJHead flex justify-center">
-                <h1 className="text-4xl md:text-5xl font-bold border-left my-4 mb-7">
+                <h1 className="text-4xl md:text-5xl font-bold border-left mb-7">
                   {" "}
                   Contact Me{" "}
                 </h1>
@@ -378,7 +378,7 @@ function Home() {
                     </span>
                   </div>
 
-                  <div className="contactSocial mx-auto">
+                  <div className="contactSocial my-2 mx-auto">
                     <ul className="flex justify-around">
                       <li className="contactLink github">
                         <a href="https://github.com/Lawrence-dot">
@@ -474,7 +474,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="flex container-m bg-light text-white dark:bg-dark justify-center">
+        <div className="flex footer container-m bg-light text-white dark:bg-dark justify-center">
           <Fade up>
             <p className="py-2 mb-2">&#169; Lawrence-dot 2022</p>
           </Fade>

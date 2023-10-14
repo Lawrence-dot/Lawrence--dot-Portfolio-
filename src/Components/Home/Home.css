@@ -8,6 +8,10 @@
   src: url('../../Assets/fonts/Rubik-Bold.ttf');
 }
 
+.footer p {
+  font-family: rubik;
+}
+
 
 .App {
   overflow-x: hidden;

@@ -4,7 +4,7 @@ export const Projects: ProjType[] = [
   {
     title: "Construction Website",
     stack: ["Tailwind", "React Js"],
-    description: "An Simple Construction Landing Page",
+    description: "An Simple Construction responsive Landing Page Website",
     link: "https://construction-khaki.vercel.app",
     src: "./Images/construct.png",
   },
@@ -34,7 +34,7 @@ export const Projects: ProjType[] = [
     title: "Image Gallery App",
     stack: ["React Js", "Bootstrap Css", "Firebase"],
     description:
-      "An Interactive Image Gallery Web Application built with Vanila Js, React Js, Bootrap Css.",
+      "An Interactive Image Gallery Web Application built with React Js, Bootrap Css.",
     link: "https://lawrence-dot.github.io/Image-Gallery-/",
     src: "./Images/imgs.png",
   },
