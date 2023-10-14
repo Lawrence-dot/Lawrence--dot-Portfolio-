@@ -129,7 +129,7 @@ function Home() {
           </div>
         </Fade>
 
-        <div className="sectionHead ">
+        <div className="sectionHead container-m">
           <div
             className="intro container-m my-auto text-center text-white md:py-64 "
             id="homeHead"
@@ -328,7 +328,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="projContents  py-20 bg-light dark:bg-dark container-m">
+        <div className="projContents py-20 bg-light dark:bg-dark container-m">
           <div className="myProj" id="projects">
             <div className="projHead mb-5 flex justify-center">
               <h1 className="text-4xl md:text-5xl font-bold text-white border-left">
