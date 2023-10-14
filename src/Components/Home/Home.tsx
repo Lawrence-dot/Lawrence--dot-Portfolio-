@@ -129,7 +129,7 @@ function Home() {
           </div>
         </Fade>
 
-        <div className="sectionHead container-m">
+        <div className="sectionHead">
           <div
             className="intro container-m my-auto text-center text-white md:py-64 "
             id="homeHead"
