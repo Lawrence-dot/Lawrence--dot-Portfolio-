@@ -30,14 +30,7 @@ export const Projects: ProjType[] = [
     link: "https://form-hixa.vercel.app/",
     src: "./Images/form.jpg",
   },
-  {
-    title: "Image Gallery App",
-    stack: ["React Js", "Bootstrap Css", "Firebase"],
-    description:
-      "An Interactive Image Gallery Web Application built with React Js, Bootrap Css.",
-    link: "https://lawrence-dot.github.io/Image-Gallery-/",
-    src: "./Images/imgs.png",
-  },
+
 
   {
     title: "Xchange WebApp",
@@ -46,6 +39,15 @@ export const Projects: ProjType[] = [
       "An Interactive Web Application which automates the process of exchanging giftcards and other cryptocurrencies.",
     link: "https://donna-five.vercel.app/",
     src: "./Images/donna.png",
+  },
+
+  {
+    title: "Image Gallery App",
+    stack: ["React Js", "Bootstrap Css", "Firebase"],
+    description:
+      "An Interactive Image Gallery Web Application built with React Js, Bootrap Css.",
+    link: "https://lawrence-dot.github.io/Image-Gallery-/",
+    src: "./Images/imgs.png",
   },
 
   {
@@ -64,6 +66,15 @@ export const Projects: ProjType[] = [
       "An Interactive Image Gallery Web Application built with Vanila Js, React Js, Bootrap Css.",
     link: "https://notepad-elo.netlify.app",
     src: "./Images/notepad.png",
+  },
+
+  {
+    title: "Lotreach Website",
+    stack: ["Typescript", "Next JS", "Tailwind Css"],
+    description:
+      "I build a Responsive and intruisive Website Using Typescript, Next Js and Tailwind Css",
+    link: "https://lotreach.netlify.app/",
+    src: "./Images/lotreach.png",
   },
 
   {
@@ -101,12 +112,5 @@ export const Projects: ProjType[] = [
     src: "./Images/bw.png",
   },
 
-  {
-    title: "Lotreach Website",
-    stack: ["Typescript", "Next JS", "Tailwind Css"],
-    description:
-      "I build a Responsive and intruisive Website Using Typescript, Next Js and Tailwind Css",
-    link: "https://lotreach.netlify.app/",
-    src: "./Images/lotreach.png",
-  },
+
 ];

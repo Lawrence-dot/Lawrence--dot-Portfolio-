@@ -42,7 +42,7 @@
 }
 
 .abtbdy {
-  max-width: 800px;
+  max-width: 660px;
     margin: 33px auto;
 }
 
@@ -196,20 +196,22 @@
 }
 
 .infoList svg {
-  fill: rgb(243, 15, 15);
+  fill: red;
   margin-top: 2.3px;
   margin-right: 4px;
 }
 
-.border-left {
-  border-left: 6.5px solid rgb(243, 15, 15);
-  padding-left: 8px;
+.vct {
+  background-color: red!important;
+  height: 1.9px!important;
+  padding: 1px!important;
+  width: 40px;
 }
 
 .card {
   border: 1px groove rgb(27, 25, 25. 0.7);
   margin: 15px;
-  max-width: 350px;
+  max-width: 370px;
   height: 530px;
 }
 
@@ -285,9 +287,9 @@ form input {
 
 
 @media (max-width: 768px) {
-  p {
+  /* p {
     font-size: 1rem !important;
-  }
+  } */
 
   .abtdimg {
     max-height: 605px;
@@ -343,19 +345,19 @@ form input {
     width: 100%;
   }
 
-  .abttext {
+  /* .abttext {
 
     max-width: 420px;
-  }
+  } */
 
 
 }
 
 @media (max-width: 576px) {
 
-  p {
+  /* p {
     font-size: 1rem !important;
-  }
+  } */
 
   .abttext {
     margin-left: 0px;
