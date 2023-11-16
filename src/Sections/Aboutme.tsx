@@ -34,7 +34,7 @@ function Aboutme() {
               </Fade>
             </div>
 
-            <div className="abttext flex sm:ml-5">
+            <div className="abttext mt-3 flex sm:ml-5">
               <Fade up>
                 <p className="text-left my-auto text-sm">
                   {" "}
