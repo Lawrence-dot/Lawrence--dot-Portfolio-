@@ -21,7 +21,7 @@ function Aboutme() {
           </div>
         </div>
 
-        <div className="flex flex-wrap abtbdy mt-5 mb-4 flex-col">
+        <div className="flex flex-wrap abtbdy mt-3 mb-7 flex-col">
           <div className="w-full flex mb-2 abtdimg flex-col sm:flex-row">
             <div className="abtImg">
               <Fade up>
