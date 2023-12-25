@@ -166,6 +166,9 @@
 .skills {
   justify-items: center;
   grid-column-gap: 0px;
+  max-width: 870px;
+  justify-content: center;
+  margin: 20px auto;
 }
 
 .skills svg {

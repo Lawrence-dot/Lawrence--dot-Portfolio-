@@ -9,7 +9,6 @@ import {
   SiFirebase,
   SiBootstrap,
   SiGithub,
-  SiCplusplus,
   SiTailwindcss,
 } from "react-icons/si";
 
@@ -89,12 +88,6 @@ function Sections() {
               <SiGithub />
               <br />
               Git
-            </div>
-
-            <div className="bg-gray-700 w-1/2 md:1/3 p-3 m-5 rounded-lg">
-              <SiCplusplus />
-              <br />
-              C++
             </div>
 
             <div className="bg-gray-700 w-1/2 md:1/3 p-3 m-5 rounded-lg ">

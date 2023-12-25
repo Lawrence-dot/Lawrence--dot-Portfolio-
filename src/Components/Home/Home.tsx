@@ -45,6 +45,9 @@ function Home() {
           "OEDYqzhwy0dl68t7y"
         )
         .then(() => {
+          nameRef!.current!.value = "";
+          mailRef!.current!.value = "";
+          messageRef!.current!.value = "";
           form.current?.reset();
         })
         .catch(() => {

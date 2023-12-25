@@ -31,13 +31,12 @@ export const Projects: ProjType[] = [
     src: "./Images/form.jpg",
   },
 
-
   {
     title: "Xchange WebApp",
     stack: ["Typescript", "React JS", "Firebase"],
     description:
       "An Interactive Web Application which automates the process of exchanging giftcards and other cryptocurrencies.",
-    link: "https://donna-five.vercel.app/",
+    link: "https://donnaxchange.vercel.app/",
     src: "./Images/donna.png",
   },
 
@@ -87,30 +86,10 @@ export const Projects: ProjType[] = [
   },
 
   {
-    title: "Lawrence Dot",
-    stack: ["Typescript", "React Js", "Tailwind Css"],
-    description:
-      "I built my portfolio website built with Typescript, React Js, Tailwind Css.",
-    link: "https://lawrence-dot-portfolio.vercel.app/",
-    src: "./Images/law.png",
-  },
-
-  {
-    title: "Moon Website",
-    stack: ["Vanila Js", "jQuery", "Css"],
-    description:
-      "Moon Website(Frontendmentor Challenge) built with Vanila Js, React Js, Tailwind Css.",
-    link: "https://lawrence-dot.github.io/Moon-Website",
-    src: "./Images/moon.png",
-  },
-
-  {
     title: "Bank Clone",
     stack: ["Html", "Css", "Javascript"],
     description: "I built Bank Clone built with Html, Css, and Javascript.",
     link: "https://lawrence-dot.github.io/BW/",
     src: "./Images/bw.png",
   },
-
-
 ];
