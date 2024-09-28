@@ -117,7 +117,7 @@ function Home() {
                 <h2 className="text-xl sm:3xl"> Software Engineer</h2>
                 <ul className="socialList my-2">
                   <li className="contactLink phone">
-                    <a href="tel:07062582656">
+                    <a href="tel:07062582657">
                       {" "}
                       <FiPhone />
                     </a>
