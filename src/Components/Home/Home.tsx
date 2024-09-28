@@ -185,7 +185,7 @@ function Home() {
                 <div className="mx-auto">
                   <Fade up>
                     <span className="flex w-64 items-center py-1 px-2 rounded my-2 border border-dark dark:border-light">
-                      <FiPhone color="red" /> 09082547402{" "}
+                      <FiPhone color="red" /> 07062582657{" "}
                     </span>
                   </Fade>
                 </div>
