@@ -92,11 +92,10 @@ export const Projects: ProjType[] = [
   },
 
   {
-    title: "Countdown App",
-    stack: ["Vanila Js", "React Js", "Tailwind Css"],
-    description:
-      "I built an interactive Countdown Web Application built with React Js, Tailwind Css.",
-    link: "https://react-countdown-app.netlify.app/",
-    src: "./Images/countdown.png",
+    title: "Bank Clone",
+    stack: ["Html", "Css", "Javascript"],
+    description: "I built Bank Clone built with Html, Css, and Javascript.",
+    link: "https://lawrence-dot.github.io/BW/",
+    src: "./Images/bw.png",
   },
 ];
