@@ -16,19 +16,18 @@ export const Projects: ProjType[] = [
     src: "./Images/quiz.png",
   },
   {
+    title: "The Box",
+    stack: ["Tailwind Css", "Next Js"],
+    description: "An Simple Interactive Landing Page",
+    link: "https://the-box-kwh9.vercel.app/",
+    src: "./Images/TheBox.png",
+  },
+  {
     title: "Rock, Paper, Scissors",
     stack: ["Tailwind Css", "React Js"],
     description: "An Simple Web Game Inspired by Frontendmentor",
     link: "https://rock-game-orpin.vercel.app",
     src: "./Images/rock.png",
-  },
-
-  {
-    title: "Multistep Form",
-    stack: ["Typescript", "React JS", "Tailwind"],
-    description: "An Interactive Multi Step Form with Error Checks.",
-    link: "https://form-hixa.vercel.app/",
-    src: "./Images/form.jpg",
   },
 
   {
@@ -38,6 +37,14 @@ export const Projects: ProjType[] = [
       "An Interactive Web Application which automates the process of exchanging giftcards and other cryptocurrencies.",
     link: "https://donnaxchange.vercel.app/",
     src: "./Images/donna.png",
+  },
+
+  {
+    title: "Cooperative Web App",
+    stack: ["React Js", ".Net", "Tailwind Css"],
+    description: "A Web Application designed to manage a Cooperative Society",
+    link: "https://cooperative-app.vercel.app/",
+    src: "./Images/CoopApp.png",
   },
 
   {
@@ -56,6 +63,14 @@ export const Projects: ProjType[] = [
       "An Interactive To Do Web Application built with Typescript, React, Bootstrap.",
     link: "https://todo-elo.netlify.app/",
     src: "./Images/todo.png",
+  },
+
+  {
+    title: "Multistep Form",
+    stack: ["Typescript", "React JS", "Tailwind"],
+    description: "An Interactive Multi Step Form with Error Checks.",
+    link: "https://form-hixa.vercel.app/",
+    src: "./Images/form.jpg",
   },
 
   {
@@ -83,13 +98,5 @@ export const Projects: ProjType[] = [
       "I built an interactive Countdown Web Application built with React Js, Tailwind Css.",
     link: "https://react-countdown-app.netlify.app/",
     src: "./Images/countdown.png",
-  },
-
-  {
-    title: "Bank Clone",
-    stack: ["Html", "Css", "Javascript"],
-    description: "I built Bank Clone built with Html, Css, and Javascript.",
-    link: "https://lawrence-dot.github.io/BW/",
-    src: "./Images/bw.png",
   },
 ];
