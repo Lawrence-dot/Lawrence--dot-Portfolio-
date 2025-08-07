@@ -10,6 +10,8 @@ import {
   SiBootstrap,
   SiGithub,
   SiTailwindcss,
+  SiDotnet,
+  SiMicrosoftsqlserver,
 } from "react-icons/si";
 
 function Sections() {
@@ -47,6 +49,17 @@ function Sections() {
               <SiReact />
               <br />
               REACT JS
+            </div>
+
+            <div className="bg-gray-700 w-1/2 md:1/3 p-3 m-5 rounded-lg">
+              <SiDotnet />
+              <br />
+              .Net
+            </div>
+
+            <div className="bg-gray-700 w-1/2 md:1/3 m-5 p-3 rounded-lg">
+              <SiMicrosoftsqlserver /> <br />
+              SQL
             </div>
 
             <div className="bg-gray-700 w-1/2 md:1/3 m-5 p-3 rounded-lg">
