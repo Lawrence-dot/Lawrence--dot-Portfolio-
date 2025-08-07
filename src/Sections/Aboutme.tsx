@@ -8,7 +8,8 @@ import {
 } from "react-icons/fa";
 
 function Aboutme() {
-  const Fade = require("react-reveal/Fade");
+  const Fade = dynamic(() => import("react-reveal/Fade"), { ssr: false });
+
   return (
     <div className="abtContents mx-auto py-8 bg-light dark:bg-dark container-m">
       <div className="aboutMe m-0 text-white" id="about">
@@ -87,3 +88,6 @@ function Aboutme() {
 }
 
 export default Aboutme;
+function dynamic(arg0: () => Promise<any>, arg1: { ssr: boolean }) {
+  throw new Error("Function not implemented.");
+}
