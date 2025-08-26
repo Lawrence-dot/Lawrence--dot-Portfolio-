@@ -2,11 +2,26 @@ import { ProjType } from "../../Interfaces/types";
 
 export const Projects: ProjType[] = [
   {
+    title: "Cooperative Web App",
+    stack: ["React Js", ".Net", "Tailwind Css"],
+    description: "A Web Application designed to manage a Cooperative Society",
+    link: "https://cooperative-app.vercel.app/",
+    src: "./Images/CoopApp.png",
+  },
+  {
     title: "Construction Website",
     stack: ["Tailwind", "React Js"],
     description: "An Simple Construction responsive Landing Page Website",
     link: "https://construction-khaki.vercel.app",
     src: "./Images/construct.png",
+  },
+
+  {
+    title: "The Box",
+    stack: ["Tailwind Css", "Next Js"],
+    description: "An Simple Interactive Landing Page",
+    link: "https://the-box-kwh9.vercel.app/",
+    src: "./Images/TheBox.png",
   },
   {
     title: "Quiz App",
@@ -14,13 +29,6 @@ export const Projects: ProjType[] = [
     description: "An Simple Interactive web Quiz game, learn and enjoy",
     link: "https://quiz-six-xi.vercel.app",
     src: "./Images/quiz.png",
-  },
-  {
-    title: "The Box",
-    stack: ["Tailwind Css", "Next Js"],
-    description: "An Simple Interactive Landing Page",
-    link: "https://the-box-kwh9.vercel.app/",
-    src: "./Images/TheBox.png",
   },
   {
     title: "Rock, Paper, Scissors",
@@ -38,15 +46,6 @@ export const Projects: ProjType[] = [
     link: "https://donnaxchange.vercel.app/",
     src: "./Images/donna.png",
   },
-
-  {
-    title: "Cooperative Web App",
-    stack: ["React Js", ".Net", "Tailwind Css"],
-    description: "A Web Application designed to manage a Cooperative Society",
-    link: "https://cooperative-app.vercel.app/",
-    src: "./Images/CoopApp.png",
-  },
-
   {
     title: "Image Gallery App",
     stack: ["React Js", "Bootstrap Css", "Firebase"],
@@ -91,11 +90,11 @@ export const Projects: ProjType[] = [
     src: "./Images/lotreach.png",
   },
 
-  {
-    title: "Bank Clone",
-    stack: ["Html", "Css", "Javascript"],
-    description: "I built Bank Clone built with Html, Css, and Javascript.",
-    link: "https://lawrence-dot.github.io/BW/",
-    src: "./Images/bw.png",
-  },
+  // {
+  //   title: "Bank Clone",
+  //   stack: ["Html", "Css", "Javascript"],
+  //   description: "I built Bank Clone built with Html, Css, and Javascript.",
+  //   link: "https://lawrence-dot.github.io/BW/",
+  //   src: "./Images/bw.png",
+  // },
 ];
