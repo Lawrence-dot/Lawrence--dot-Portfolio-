@@ -27,7 +27,7 @@ function Aboutme() {
               <Fade up>
                 <img
                   className="h-100 dark:grayscale"
-                  src={require("../Assets/me.jpg")}
+                  src={require("../Assets/me.jpeg")}
                   height="30px"
                   alt="L-dot"
                 />
