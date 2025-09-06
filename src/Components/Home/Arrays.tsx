@@ -9,6 +9,14 @@ export const Projects: ProjType[] = [
     src: "./Images/CoopApp.png",
   },
   {
+    title: "Gate Pass",
+    stack: ["React Js", "Tailwind Css", ".Net"],
+    description:
+      "An Visitor booking system built with React Js, .Net and Tailwind Css",
+    link: "https://visitor-booking-front-end.vercel.app/",
+    src: "./Images/GatePass.png",
+  },
+  {
     title: "Construction Website",
     stack: ["Tailwind", "React Js"],
     description: "An Simple Construction responsive Landing Page Website",
@@ -70,15 +78,6 @@ export const Projects: ProjType[] = [
     description: "An Interactive Multi Step Form with Error Checks.",
     link: "https://form-hixa.vercel.app/",
     src: "./Images/form.jpg",
-  },
-
-  {
-    title: "Notepad App",
-    stack: ["Vanila Js", "React Js", "Bootstrap Css"],
-    description:
-      "An Interactive Image Gallery Web Application built with Vanila Js, React Js, Bootrap Css.",
-    link: "https://notepad-elo.netlify.app",
-    src: "./Images/notepad.png",
   },
 
   {
