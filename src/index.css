@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+.cardImg img {
+  object-fit: contain;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
