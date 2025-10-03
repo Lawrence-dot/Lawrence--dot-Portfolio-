@@ -34,19 +34,26 @@ function Aboutme() {
               </Fade>
             </div>
 
-            <div className="abttext mt-5 flex sm:ml-5">
+            <div className="abttext mt-7 flex sm:ml-5">
               <Fade up>
-                <p className="text-left my-auto text-sm">
-                  {" "}
-                  My Name is Ojediran Lawrence. A Software Engineer with deep
-                  passion for design and development of software products. I
-                  Design and Build Profesional, Creative, Interactive and
-                  Responsive Websites and Web Applications. I also design web
-                  applications with topnotch user experience and user
-                  interfaces. I also Enjoy creating and deploying topnotch and
-                  creative software solutions. I also have a great team spirit,
-                  i enjoy working together in teams to ensure smooth and quick
-                  delivery of software solutions.
+                <p className="text-left my-auto text-sm leading-relaxed">
+                  I am Ojediran Lawrence, a Software Engineer with a strong
+                  passion for designing and developing innovative software
+                  products.
+                </p>
+
+                <p className="text-left my-auto text-sm leading-relaxed mt-3">
+                  I specialize in building professional, responsive, and
+                  interactive websites and web applications with a focus on
+                  delivering seamless user experiences and modern user
+                  interfaces.
+                </p>
+
+                <p className="text-left my-auto text-sm leading-relaxed mt-3">
+                  Beyond development, I enjoy creating and deploying creative,
+                  high-quality solutions that drive impact. I thrive in
+                  collaborative environments and value teamwork as a key factor
+                  in delivering efficient and successful software solutions.
                 </p>
               </Fade>
             </div>
