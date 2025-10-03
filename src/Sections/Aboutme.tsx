@@ -22,7 +22,7 @@ function Aboutme() {
         </div>
 
         <div className="flex flex-wrap abtbdy mt-3 mb-7 flex-col">
-          <div className="w-full flex mb-2 abtdimg flex-col sm:flex-row">
+          <div className="w-full flex mb-2 abtdimg flex-col md:flex-row">
             <div className="abtImg">
               <Fade up>
                 <img
@@ -36,18 +36,17 @@ function Aboutme() {
 
             <div className="abttext mt-7 flex sm:ml-5">
               <Fade up>
-                <p className="text-left my-auto text-sm">
-                  {" "}
+                <p className="text-left my-auto text-sm leading-relaxed">
                   I am Ojediran Lawrence, a Software Engineer with a strong
                   passion for designing and developing innovative software
-                  products. I specialize in building professional, responsive,
-                  and interactive websites and web applications with a focus on
+                  products.
+                  <br />
+                  <br />I specialize in building professional, responsive, and
+                  interactive websites and web applications with a focus on
                   delivering seamless user experiences and modern user
-                  interfaces. Beyond development, I enjoy creating and deploying
-                  creative, high-quality solutions that drive impact. I thrive
-                  in collaborative environments and value teamwork as a key
-                  factor in delivering efficient and successful software
-                  solutions.
+                  interfaces. I thrive in collaborative environments and value
+                  teamwork as a key factor in delivering efficient and
+                  successful software solutions.
                 </p>
               </Fade>
             </div>
