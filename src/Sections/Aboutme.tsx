@@ -36,28 +36,23 @@ function Aboutme() {
 
             <div className="abttext mt-7 flex sm:ml-5">
               <Fade up>
-                <div className="flex gap-6 text-sm leading-relaxed text-left">
-                  <p className="flex-1">
-                    I am Ojediran Lawrence, a Software Engineer with a strong
-                    passion for designing and developing innovative software
-                    products.
-                  </p>
-
-                  <p className="flex-1">
-                    I specialize in building professional, responsive, and
-                    interactive websites and web applications with a focus on
-                    delivering seamless user experiences and modern user
-                    interfaces.
-                  </p>
-
-                  <p className="flex-1">
-                    Beyond development, I enjoy creating and deploying creative,
-                    high-quality solutions that drive impact. I thrive in
-                    collaborative environments and value teamwork as a key
-                    factor in delivering efficient and successful software
-                    solutions.
-                  </p>
-                </div>
+                <p className="text-left my-auto text-sm leading-relaxed">
+                  I am Ojediran Lawrence, a Software Engineer with a strong
+                  passion for designing and developing innovative software
+                  products.
+                  <br />
+                  <br />
+                  I specialize in building professional, responsive, and
+                  interactive websites and web applications with a focus on
+                  delivering seamless user experiences and modern user
+                  interfaces.
+                  <br />
+                  <br />
+                  Beyond development, I enjoy creating and deploying creative,
+                  high-quality solutions that drive impact. I thrive in
+                  collaborative environments and value teamwork as a key factor
+                  in delivering efficient and successful software solutions.
+                </p>
               </Fade>
             </div>
           </div>
