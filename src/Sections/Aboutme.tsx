@@ -36,22 +36,18 @@ function Aboutme() {
 
             <div className="abttext mt-7 flex sm:ml-5">
               <Fade up>
-                <p className="text-left my-auto text-sm leading-relaxed">
+                <p className="text-left my-auto text-sm">
+                  {" "}
                   I am Ojediran Lawrence, a Software Engineer with a strong
                   passion for designing and developing innovative software
-                  products.
-                  <br />
-                  <br />
-                  I specialize in building professional, responsive, and
-                  interactive websites and web applications with a focus on
+                  products. I specialize in building professional, responsive,
+                  and interactive websites and web applications with a focus on
                   delivering seamless user experiences and modern user
-                  interfaces.
-                  <br />
-                  <br />
-                  Beyond development, I enjoy creating and deploying creative,
-                  high-quality solutions that drive impact. I thrive in
-                  collaborative environments and value teamwork as a key factor
-                  in delivering efficient and successful software solutions.
+                  interfaces. Beyond development, I enjoy creating and deploying
+                  creative, high-quality solutions that drive impact. I thrive
+                  in collaborative environments and value teamwork as a key
+                  factor in delivering efficient and successful software
+                  solutions.
                 </p>
               </Fade>
             </div>
