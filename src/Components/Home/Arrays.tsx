@@ -54,14 +54,6 @@ export const Projects: ProjType[] = [
     link: "https://donnaxchange.vercel.app/",
     src: "./Images/donna.png",
   },
-  {
-    title: "Image Gallery App",
-    stack: ["React Js", "Bootstrap Css", "Firebase"],
-    description:
-      "An Interactive Image Gallery Web Application built with React Js, Bootrap Css.",
-    link: "https://lawrence-dot.github.io/Image-Gallery-/",
-    src: "./Images/imgs.png",
-  },
 
   {
     title: "To Do List",
@@ -71,15 +63,6 @@ export const Projects: ProjType[] = [
     link: "https://todo-elo.netlify.app/",
     src: "./Images/todo.png",
   },
-
-  {
-    title: "Multistep Form",
-    stack: ["Typescript", "React JS", "Tailwind"],
-    description: "An Interactive Multi Step Form with Error Checks.",
-    link: "https://form-hixa.vercel.app/",
-    src: "./Images/form.jpg",
-  },
-
   {
     title: "Lotreach Website",
     stack: ["Typescript", "Next JS", "Tailwind Css"],
